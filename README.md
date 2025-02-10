@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let startTime;
     let timeResults = [];
     
-    const timeButtons = [5, 10, 30, 60, 120, 150].map((interval) => {
+    const timeButtons = [5, 5, 5, 10, 30, 60, 120, 150].map((interval) => {
         const button = document.createElement("button");
         button.innerText = `${interval} sec`;
         button.dataset.interval = interval;
